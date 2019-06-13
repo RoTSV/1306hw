@@ -12,9 +12,9 @@ function move(e) {
 };
 
 function mouseDown() {
-    block.addEventListener('mousemove', move)
-}; 
+    block.addEventListener('mousemove', move);
+}
 
 function mouseUp() {
-    block.removeEventListener('mousemove', move)
-}; 
+    block.removeEventListener('mousemove', move);
+} 
